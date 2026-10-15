@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Generated snippet output
+*_snippets.sv
+*.sv
+!slides.expected.sv
+!slides_vhdl.expected.sv
+!slides_vhdl_all.expected.sv
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
